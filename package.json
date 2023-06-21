@@ -1,0 +1,29 @@
+{
+  "name": "blog-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahsa-abadian/blog-mongo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahsa-abadian/blog-mongo/issues"
+  },
+  "homepage": "https://github.com/mahsa-abadian/blog-mongo#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.0"
+    
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
