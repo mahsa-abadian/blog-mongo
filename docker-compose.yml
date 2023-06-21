@@ -1,0 +1,13 @@
+version: '3.7'
+services:
+  db:
+   container_name: 'mongodb'
+   ports:
+    - '27017:27017'
+   image: mongo:latest
+   env_file:
+      - ./var/.env
+   volumes:
+   - blogdb:/data/db
+volumes:
+    blogdb:
